@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <button id = "scores-btn">View High Scores</button>
+    <div class = "container">
+        <div class = "container-2">
+            <header class = "quiz-header">
+                <p id = "text"><span>Question</span></p>
+            </header>
+            <ul>
+                <li><button id = "start">Start</button></li>
+                <li><button id = "a">A</button></li>
+                <li><button id = "b">B</button></li>
+                <li><button id = "c">C</button></li>
+                <li><button id = "d">D</button></li>
+                <li><label>Enter Initials: </label><input type = "text"><button id = "submit">Submit</button></li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <span id = "check"></span>
+        </div>
+    </div>
+    <h2>Time: <span id = "time-left">140</span></h2>
+    <div id = "highscore-modal" class = "modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <table style = "width: 100%">
+                <tr>
+                    <th></th>
+                    <th>User</th>
+                    <th>Score</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td id = "user-1"></td>
+                    <td id = "score-1"></td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td id = "user-2"></td>
+                    <td id = "score-2"></td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td id = "user-3"></td>
+                    <td id = "score-3"></td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td id = "user-4"></td>
+                    <td id = "score-4"></td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td id = "user-5"></td>
+                    <td id = "score-5"></td>
+                </tr>
+
+            </table>
+          </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
