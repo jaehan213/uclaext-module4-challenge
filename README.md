@@ -9,7 +9,7 @@ Once the start button is clicked, the user has 20*(number of questions) seconds 
 
 The quiz also displays an "correct" or "incorrect" text each time a question is answered.
 
-![Module 4 Preview](/module4_preview.png)
+![Module 4 Preview](/module4_preview.PNG)
 
 
 Deployed Github Link: 
